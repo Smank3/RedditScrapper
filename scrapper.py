@@ -11,7 +11,7 @@ reddit = praw.Reddit(client_id='personal_script_14_chars', \
 
 subreddit = reddit.subreddit('subreddit_name') ;
 
-top_subreddit = subreddit.top(limit=200) #Set a limit yourself, max 100.
+top_subreddit = subreddit.top(limit=200) #Set a limit yourself, max 1000.
 
 topics_dict = { "title":[], \
                 "score":[], \
